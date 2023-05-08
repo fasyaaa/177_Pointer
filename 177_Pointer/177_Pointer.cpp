@@ -24,7 +24,7 @@ int main() {
 
 
 	//3.Penulisan cara ke 3
-	mahasiswa* pMhs = &mhs;							//Poibnter Deference pMhs
+	mahasiswa* pMhs = &mhs;							//Pointer Deference pMhs
 	pMhs->nim = 3;									//Arrow Operator
 	mhs.showNim();
 	system("pause");
