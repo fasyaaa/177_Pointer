@@ -13,12 +13,17 @@ void mahasiswa::showNim() {							//Implememtasi methode diluar class
 }
 
 int main() {
+	//1. Penulisan cara ke 1
 	mahasiswa mhs{ 1 };								//object mhs
 	mhs.showNim();									//Member access operator
 
+
+	//2. Penulisan cara ke 2
 	mahasiswa& refMhs = mhs;						//Pointer Reference refMhs
 	refMhs.nim = 2;									//Member access operator
 
+
+	//3.Penulisan cara ke 3
 	mahasiswa* pMhs = &mhs;							//Poibnter Deference pMhs
 	pMhs->nim = 3;									//Arrow Operator
 	mhs.showNim();
